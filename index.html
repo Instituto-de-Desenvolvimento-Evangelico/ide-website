@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site oficial do Instituto de Desenvolvimento Evangélico (IDE) em Santana de Parnaíba, SP. Promovendo fé, educação e ação social.">
+    <title>Instituto de Desenvolvimento Evangélico - IDE São Paulo</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(30, 58, 138, 0.85), rgba(30, 58, 138, 0.7)), url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Cabeçalho com Logo Real -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <!-- LOGO REAL AQUI -->
+                <img src="logo.jpg" alt="Logo IDE São Paulo" class="h-12 w-12 rounded-full object-cover">
+                <div>
+                    <h1 class="text-xl font-bold text-blue-900 leading-tight">IDE São Paulo</h1>
+                    <p class="text-xs text-gray-500 font-medium">Instituto de Desenvolvimento Evangélico</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#missao" class="text-gray-600 hover:text-blue-900 font-medium transition">Nossa Missão</a>
+                <a href="#institucional" class="text-gray-600 hover:text-blue-900 font-medium transition">Dados Institucionais</a>
+                <a href="#contato" class="text-gray-600 hover:text-blue-900 font-medium transition">Contato</a>
+            </nav>
+            <a href="https://instagram.com/ide.saopaulo" target="_blank" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-2 px-5 rounded-full transition duration-300 flex items-center text-sm">
+                <i class="fab fa-instagram mr-2"></i> @ide.saopaulo
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-24 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <!-- Logo grande no Hero -->
+            <img src="logo.jpg" alt="Logo IDE São Paulo" class="h-32 w-32 rounded-full object-cover mx-auto mb-6 border-4 border-white shadow-lg">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Transformando Vidas através da Fé e da Ação Social</h1>
+            <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto text-blue-100 font-light">
+                Atuando em Santana de Parnaíba e região para promover o desenvolvimento integral do ser humano e fortalecer nossas comunidades.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#institucional" class="bg-white text-blue-900 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 shadow-lg">
+                    Conheça o Instituto
+                </a>
+                <a href="https://instagram.com/ide.saopaulo" target="_blank" class="border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-900 transition duration-300">
+                    Acompanhe Nossas Ações
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Missão e Dados Institucionais -->
+    <section id="institucional" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">Identidade Institucional</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <!-- Coluna da Missão -->
+                <div class="bg-blue-50 p-8 rounded-2xl border border-blue-100">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-bullseye text-blue-600 text-2xl mr-3"></i>
+                        <h3 class="text-2xl font-bold text-blue-900">Nossa Missão</h3>
+                    </div>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        Promover o desenvolvimento integral do ser humano, unindo fé, educação e assistência social para transformar vidas, acolher famílias e fortalecer a comunidade de Santana de Parnaíba e região, conforme os princípios cristãos e o compromisso com o próximo.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        O Instituto de Desenvolvimento Evangélico (IDE) atua de forma transparente e sem fins lucrativos, dedicando seus esforços a projetos que geram impacto social positivo e esperança.
+                    </p>
+                </div>
+
+                <!-- Coluna dos Dados Legais -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-l-4 border-blue-900 shadow-sm">
+                    <div class="flex items-center mb-6">
+                        <i class="fas fa-file-contract text-blue-900 text-2xl mr-3"></i>
+                        <h3 class="text-2xl font-bold text-gray-900">Dados de Registro Legal</h3>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide font-semibold">Razão Social</p>
+                            <p class="text-lg font-medium text-gray-900">Instituto de Desenvolvimento Evangélico</p>
+                        </div>
+                        
+                        <div>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide font-semibold">CNPJ</p>
+                            <p class="text-lg font-medium text-gray-900 font-mono bg-white inline-block px-3 py-1 rounded border border-gray-200">03.733.967/0005-02</p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide font-semibold">Endereço da Sede</p>
+                            <p class="text-lg font-medium text-gray-900">
+                                Rua da Fartura, nº 73<br>
+                                Santana de Parnaíba - SP<br>
+                                CEP: 06525-075
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide font-semibold">Natureza Jurídica</p>
+                            <p class="text-lg font-medium text-gray-900">Organização da Sociedade Civil (OSC) sem fins lucrativos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Comunidade -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Juntos pela nossa comunidade</h2>
+            <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                 alt="Pessoas unidas em ação comunitária" 
+                 class="rounded-xl shadow-lg mx-auto max-w-4xl w-full object-cover h-64 md:h-96">
+            <p class="mt-6 text-gray-600 max-w-2xl mx-auto">
+                Acompanhe nosso dia a dia, ações e eventos através de nossas redes sociais oficiais.
+            </p>
+        </div>
+    </section>
+
+    <!-- Rodapé com Logo -->
+    <footer id="contato" class="bg-blue-950 text-gray-300 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <img src="logo.jpg" alt="Logo IDE São Paulo" class="h-16 w-16 rounded-full object-cover border-2 border-white">
+                        <h3 class="text-xl font-bold text-white">IDE São Paulo</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed">
+                        Instituto de Desenvolvimento Evangélico.<br>
+                        Transformando vidas com propósito e fé.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Contato Oficial</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-blue-400"></i>
+                            <span>contato@idesaopaulo.org.br</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-400"></i>
+                            <span>Rua da Fartura, 73<br>Santana de Parnaíba, SP</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Redes Sociais</h4>
+                    <div class="flex space-x-4">
+                        <a href="https://instagram.com/ide.saopaulo" target="_blank" class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center hover:bg-pink-600 transition duration-300">
+                            <i class="fab fa-instagram text-white text-lg"></i>
+                        </a>
+                        <a href="https://facebook.com/ide.saopaulo" target="_blank" class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center hover:bg-blue-600 transition duration-300">
+                            <i class="fab fa-facebook-f text-white text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-900 pt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2026 Instituto de Desenvolvimento Evangélico. CNPJ: 03.733.967/0005-02. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
